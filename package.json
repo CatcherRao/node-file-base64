@@ -6,9 +6,10 @@
     "node-file-base64",
     "base64",
     "file",
-    "node"
+    "node",
+    "base64"
   ],
-  "author": "CatcherRao 4423761@qq.com",
+  "author": "catcher",
   "main": "lib/main.js",
   "scripts": {
     "dev": "node demo/index.js"

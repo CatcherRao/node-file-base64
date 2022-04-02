@@ -2,9 +2,11 @@
 
 <u>node-file-base64 requires node v7.6.0 or higher for ES2015。</u>
 
-
-
 **how to use?**
+
+npm install  node-file-base64 --save-dev
+
+
 
 demo:
 
