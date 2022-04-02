@@ -1,0 +1,28 @@
+{
+  "name": "node-file-base64",
+  "version": "1.0.0",
+  "description": "file to base64",
+  "keywords": [
+    "node-file-base64",
+    "base64",
+    "file",
+    "node"
+  ],
+  "author": "CatcherRao 4423761@qq.com",
+  "main": "lib/main.js",
+  "scripts": {
+    "dev": "node demo/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatcherRao/node-file-base64.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CatcherRao/node-file-base64/issues"
+  },
+  "homepage": "https://github.com/CatcherRao/node-file-base64#readme",
+  "devDependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
