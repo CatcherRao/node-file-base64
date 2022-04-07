@@ -18,9 +18,9 @@ fileBase64.fileToBase64(filePath)
 
 
 // base64 to file demo
-const base64ToFile = function (base64Str, fileDir, fileName) {
+const base64ToFile = function (base64Str) {
   const dir = path.resolve(__dirname, './output');
-  fileBase64.base64ToFile(base64Str, 'your file directory', 'your file name')
+  fileBase64.base64ToFile(base64Str, dir,)
     .then((res) => {
       if (res.code) {
         console.log('success');
