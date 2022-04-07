@@ -1,14 +1,14 @@
 {
   "name": "node-file-base64",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NodeJs file to base64",
   "keywords": [
-    "node-file-base64",
     "node",
     "file",
     "base64",
     "file base64",
-    "file to base64"
+    "file to base64",
+    "base64 to file"
   ],
   "author": "catcher",
   "main": "lib/main.js",
