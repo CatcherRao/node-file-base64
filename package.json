@@ -1,7 +1,7 @@
 {
   "name": "node-file-base64",
-  "version": "2.0.1",
-  "description": "NodeJs file to base64",
+  "version": "2.0.2",
+  "description": "NodeJs file to base64 or base64 to file",
   "keywords": [
     "node",
     "file",

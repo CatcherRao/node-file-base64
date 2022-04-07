@@ -18,7 +18,7 @@ fileBase64.fileToBase64('your file path')
   })
 
 
-// base64 to file demo
+// base64 to file
   fileBase64.base64ToFile(base64Str, 'your file directory', 'your file name')
     .then((res) => {
       if (res.code) {
