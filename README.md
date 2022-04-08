@@ -11,7 +11,9 @@ const fileBase64 = require('node-file-base64');
 // file to base64
 fileBase64.fileToBase64('your file path')
   .then((res) => { 
-    base64ToFile(res.str);
+    if (res.code === 1) {
+       console.log(res.str);
+     }
   })
   .catch((err) => {
     console.log(err);
@@ -21,7 +23,7 @@ fileBase64.fileToBase64('your file path')
 // base64 to file
   fileBase64.base64ToFile(base64Str, 'your file directory', 'your file name')
     .then((res) => {
-      if (res.code) {
+      if (res.code === 1) {
         console.log('success');
       }
     })
